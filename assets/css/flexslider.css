@@ -1,0 +1,26 @@
+.slick-track {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.slider-thumb.fix-width.slick-initialized.slick-slider .slick-slide {
+  width: 107px !important;
+}
+
+.slider-thumb.fix-width.slick-initialized.slick-slider .slick-slide img {
+  width: 100%;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.slick-slide.slick-current.slick-active img {
+  opacity: 1 !important;
+}
+.slider-thumb.fix-width.slick-initialized.slick-slider .slick-slide img:hover {
+  opacity: 1;
+}
+.slick-slide {
+  outline: none !important;
+}
+.slider-content img{
+  max-width: 430px;
+}

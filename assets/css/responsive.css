@@ -1,0 +1,50 @@
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 991.98px) { 
+    .slider {
+        max-width: 100%;
+    }
+    .slider-wrap {
+        display: block;
+    }
+    .container {
+        padding: 0px 6%;
+    }
+    .slider-content img {
+        max-width: 100%;
+    }
+    .slider-thumb.fix-width.slick-initialized.slick-slider .slick-slide {
+        width: 25% !important;
+    }
+    .product-details {
+        padding-left: 0;
+        padding-top: 40px;
+    }
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 575.98px) { 
+    h2 {
+        font-size: 20px;
+        line-height: 27px;
+    }   
+    h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    nav ul li a {
+        padding: 9px;
+        font-size: 14px;
+    }
+    .footer-content ul li a {
+        padding: 10px 6px;
+        font-size: 14px;
+    }
+    footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
